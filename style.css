@@ -1,16 +1,70 @@
 .body{
     margin: 0px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p{
+    margin: 0px !important;
+}
+/*navbar*/
+.navbar{
+    background-color: rgb(155, 87, 11);
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.opcoes{
+    width: 25%;
+    display: flex ;
+    justify-content: space-between;
+    justify-items: left;
+    margin-left: 30px;
+}
+.navbarOpcoes{
+    padding: 2px 5px 2px 5px;
+    background-color: rgba(151, 151, 151, 0.266);
+    border-radius: 5px;    
 }
 .nomeEmpresa {
     color: green;
-  }
+    margin: 0px;
+    padding: 10px;
+    font-size: 55px;    
+}
+.fraseEfeito{
+    color: black;
+    margin-left: 30px;
+    margin-top: -25px;
+    padding: 10px;
+    font-size: 15px;    
+}
 .header{
     background-color: rgb(4, 88, 32);
     margin: 0px;
+    height: 200px;
 }
 .corpoSite{
-    background-color: rgb(70, 133, 91);
-    margin: 0px;
+    background-color: rgb(116, 121, 118);
+    padding: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    background-color: rgb(80, 79, 79);
+    border-bottom-width: 10px !important;
+    
+    border-color: white;
 }
 .footer{
     background-color: rgb(4, 66, 25);
