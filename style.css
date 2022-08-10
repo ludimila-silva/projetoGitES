@@ -1,0 +1,18 @@
+.body{
+    margin: 0px !important;
+}
+.nomeEmpresa {
+    color: green;
+  }
+.header{
+    background-color: rgb(4, 88, 32);
+    margin: 0px;
+}
+.corpoSite{
+    background-color: rgb(70, 133, 91);
+    margin: 0px;
+}
+.footer{
+    background-color: rgb(4, 66, 25);
+    margin: 0px;
+}
