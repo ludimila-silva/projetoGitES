@@ -129,3 +129,18 @@ text-align: center;
 .sitemapOptions:hover, .sitemapOptions:active{
     background-color: rgba(92, 92, 92, 0.473);
 }
+.pageContent{
+    margin: 2vw;
+    width: 90vw;
+}
+th{
+    padding: 10px;
+    text-align: left;
+    width:fit-content;
+}
+.esq{
+    padding: 10px;
+    text-align: left;
+    width:fit-content;
+    border-right: 2px solid black;
+}
