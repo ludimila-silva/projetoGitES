@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="style.css" rel="stylesheet">
+    <title>Green thirty</title>
+</head>
+
+<body class="body">
+    <div class="navbar">
+        <div class="opcoes">
+            <a class="navbarOpcoes" href="index.html">Home</a>
+            <a class="navbarOpcoes" href="filiais.html">Filiais</a>
+            <a class="navbarOpcoes" href="area-do-usuario.html">Area do Usuario</a>
+            <a class="navbarOpcoes" href="contato.html">Contato</a>
+        </div>
+
+    </div>
+    <div class="header">
+        <p class="nomeEmpresa">Gree thirty</p>
+        <p class="fraseEfeito">A vida nova para quem trintou</p>
+    </div>
+    <div class="corpoSite">
+      <h3>CONTATO</h3>
+    </div>
+    <div class="pageContent">
+        <table class>
+            <th class="esq">
+                Telefone para contato:<br>
+                (81) 98765-4321
+            </th>
+            <th>
+                Email:<br>
+                <a href="mailto:jgtg@ecomp.poli.br" style="text-decoration: none; color: black;">jgtg@ecomp.poli.br</a><br>
+                <a href="mailto:mlss@ecomp.poli.br" style="text-decoration: none; color: black;">mlss@ecomp.poli.br</a>
+            </th>
+        </table>
+      </div>
+    <footer class="footer">
+        <h2 class="footerText">Informações da empresa</h2>
+
+        <div class="sitemap">
+            <p>
+            <a class="sitemapOptions" href="index.html">Home</a>
+            <br>
+            <br>
+            <a class="sitemapOptions" href="filiais.html">Filiais</a>
+            <br>
+            <br>
+            <a class="sitemapOptions" href="area-do-usuario.html">Area do Usuario</a>
+            <br>
+            <br>
+            <a class="sitemapOptions" href="contato.html">Contato</a>
+            </p>
+        </div>
+
+    </footer>
+</body>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+
+</html>

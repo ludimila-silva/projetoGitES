@@ -1,18 +1,159 @@
 .body{
     margin: 0px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p{
+    margin: 0px !important;
+}
+/*navbar*/
+.navbar{
+    background-color: rgb(155, 87, 11);
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.opcoes{
+    width: 25%;
+    display: flex ;
+    justify-content: space-between;
+    justify-items: left;
+    margin-left: 30px;
+}
+.navbarOpcoes:link, .navbarOpcoes:visited{
+    padding: 2px 5px 2px 5px;
+    background-color: rgba(151, 151, 151, 0.266);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white
+}
+.navbarOpcoes:hover, .navbarOpcoes:active{
+    background-color: rgba(92, 92, 92, 0.473);
 }
 .nomeEmpresa {
     color: green;
-  }
+    margin: 0px;
+    padding: 10px;
+    font-size: 85px;    
+}
+.fraseEfeito{
+    color: black;
+    margin-left: 50px;
+    margin-top: -25px;
+    padding: 10px;
+    font-size: 15px;    
+}
 .header{
     background-color: rgb(4, 88, 32);
     margin: 0px;
+    height: 200px;
 }
 .corpoSite{
-    background-color: rgb(70, 133, 91);
-    margin: 0px;
+    background-color: rgb(150, 153, 151);
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    justify-items: center;
 }
+.historia{
+    background-color: rgb(150, 153, 151);
+    padding: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto;
+}
+.textNossaHist{
+    font-size: 30px;
+    color: rgb(2, 63, 2);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    background-color: rgb(80, 79, 79);
+    border-bottom-width: 10px !important;
+    border-color: white;
+}
+
+.collapsible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    height: 160px;
+    margin: 10px;
+    background-color: rgb(80, 79, 79);
+    border-bottom-width: 10px !important;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0px;
+    width: 200px;
+    margin: 10px;
+    max-height: 0;
+    overflow: hidden;
+    text-align: center;
+    transition: max-height 0.5s;
+    background-color: #f1f1f1;
+  }
+
 .footer{
     background-color: rgb(4, 66, 25);
+    bottom:0;
+    width:100%;
+    text-align: left;
+    height: max-content;
+}
+
+.footerText{
+    text-align: center;
     margin: 0px;
+    padding: 15px 0px 15px  0px;
+
+}
+
+.sitemap{
+    margin-left: 50px;
+}
+.sitemapOptions:link, .sitemapOptions:visited{
+    align-items: left;
+    text-decoration: none;
+    color: white
+}
+.sitemapOptions:hover, .sitemapOptions:active{
+    background-color: rgba(92, 92, 92, 0.473);
+}
+.pageContent{
+    margin: 2vw;
+    width: 90vw;
+}
+th{
+    padding: 10px;
+    text-align: left;
+    width:fit-content;
+}
+.esq{
+    padding: 10px;
+    text-align: left;
+    width:fit-content;
+    border-right: 2px solid black;
 }
