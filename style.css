@@ -20,10 +20,17 @@
     justify-items: left;
     margin-left: 30px;
 }
-.navbarOpcoes{
+.navbarOpcoes:link, .navbarOpcoes:visited{
     padding: 2px 5px 2px 5px;
     background-color: rgba(151, 151, 151, 0.266);
-    border-radius: 5px;    
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white
+}
+.navbarOpcoes:hover, .navbarOpcoes:active{
+    background-color: rgba(92, 92, 92, 0.473);
 }
 .nomeEmpresa {
     color: green;
@@ -63,10 +70,62 @@
     margin: 10px;
     background-color: rgb(80, 79, 79);
     border-bottom-width: 10px !important;
-    
     border-color: white;
 }
+
+.collapsible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    height: 160px;
+    margin: 10px;
+    background-color: rgb(80, 79, 79);
+    border-bottom-width: 10px !important;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0px;
+    width: 200px;
+    margin: 10px;
+    max-height: 0;
+    overflow: hidden;
+    text-align: center;
+    transition: max-height 0.5s;
+    background-color: #f1f1f1;
+  }
+
 .footer{
     background-color: rgb(4, 66, 25);
     margin: 0px;
+    position:absolute;
+    bottom:0;
+    width:100vw;
+    text-align: left;
+    height: 25vh
+}
+
+.footerText{
+text-align: center;
+}
+
+.sitemap{
+    margin-left: 50px;
+}
+.sitemapOptions:link, .sitemapOptions:visited{
+    align-items: left;
+    text-decoration: none;
+    color: white
+}
+.sitemapOptions:hover, .sitemapOptions:active{
+    background-color: rgba(92, 92, 92, 0.473);
 }
