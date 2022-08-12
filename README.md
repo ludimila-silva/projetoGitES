@@ -1,5 +1,6 @@
 # projetoGitES
-Projeto para a Graduação de Engenharia da Computação 
+Projeto para a disciplina de Engenharia de Software do curso de Engenharia da Computação. A atividade tem como foco exercitar o uso do GitHub e aplicar o GitFlow. Foi desenvolvido um modelo de site para uma empresa fictícia utilizando HTML e CSS.
+
 # queue-microtask [![ci][ci-image]][ci-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
 [ci-image]: https://img.shields.io/github/workflow/status/feross/queue-microtask/ci/master
